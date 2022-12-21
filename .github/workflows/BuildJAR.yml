@@ -1,4 +1,4 @@
-name: buildjar
+name: Build JAR file
 
 on: [push]
 
@@ -19,7 +19,3 @@ jobs:
       - name: list the current directory
         run: ls -a
         
-      - name: what is in the target folder
-        run: 
-          cd target
-          ls -a
